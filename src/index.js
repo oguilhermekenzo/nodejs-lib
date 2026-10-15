@@ -4,7 +4,7 @@ export function contaPalavras(texto) {
     if (!paragrafo) return []; // Ignora parágrafos vazios
     return verificaPalavrasDuplicadas(paragrafo); // Chama a função para verificar palavras duplicadas em cada parágrafo
   });
-  console.log(contagem);
+  return contagem;
 }
 
 function extraiParagrafos(texto) {
